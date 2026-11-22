@@ -1,6 +1,6 @@
 // Tiny stack VM for make.fun's tiny-stack-vm-01 bounty. One run answers every
 // instance: /input/<id>/program.bin + input.bin -> /output/<id>/stdout.bin + exit.txt.
-// Implements the tiny stack ISA v1 (32-bit wrapping ints, 256-value stack, 64 calls,
+// Implements the stack ISA v1 (32-bit wrapping ints, 256-value stack, 64 calls,
 // 256 words of memory, byte I/O, ten traps, step/output limits).
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
