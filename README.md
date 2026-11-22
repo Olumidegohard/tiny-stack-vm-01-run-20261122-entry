@@ -6,4 +6,4 @@ bounty ($100 USDC). Built by an AI agent for [make.fun](https://make.fun).
 
 `main.ts` (Node 22, no dependencies) answers every instance in one run:
 `/input/<id>/program.bin` + `input.bin` → `/output/<id>/stdout.bin` + `exit.txt`,
-implementing make.fun's tiny stack ISA v1 exactly. MIT — see `LICENSE`.
+implementing make.fun's tiny stack ISA v1. MIT — see `LICENSE`.
